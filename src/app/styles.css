@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ input[type="text"] {
 }
 
 button.add {
-  width: 150px; /* Largura fixa para o botão Adicionar */
+  width: 150px;
   padding: 10px;
   background-color: #28a745;
   color: white;
@@ -40,24 +40,23 @@ button.add {
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
-  height: 40px; /* Altura definida para o botão */
+  height: 40px;
 }
-
 button.add:hover {
-  background-color: #218838; /* Cor ao passar o mouse */
+  background-color: #218838;
 }
 
 button.delete {
   background-color: #dc3545;
-  width: 80px; /* Largura fixa para o botão Excluir */
+  width: 80px;
   height: 30px;
-  padding: 5px; /* Adiciona padding ao botão Excluir */
+  padding: 5px;
   color: white;
   border-radius: 4px;
 }
 
 button.delete:hover {
-  background-color: #c82333; /* Cor ao passar o mouse no botão Excluir */
+  background-color: #c82333;
 }
 
 ul {
@@ -71,7 +70,7 @@ li {
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid #eee;
-  color: black; /* Texto da tarefa em preto */
+  color: black;
 }
 
 li:last-child {
@@ -83,12 +82,13 @@ li:last-child {
     padding: 10px;
   }
 
-  input[type="text"], button {
+  input[type="text"],
+  button {
     font-size: 14px;
   }
 
   button.delete {
-    width: 70px; /* Largura para o botão Excluir em telas menores */
+    width: 70px;
     height: 28px;
   }
 }
